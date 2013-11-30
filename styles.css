@@ -97,6 +97,20 @@ a:hover {
   font-size: 2em;
 }
 
+/** SPEAKERS **/
+#speakers {
+  padding-top: .5em;
+}
+
+#speakers .glyphicon-user {
+  font-size: 4em;
+}
+
+#speakers .media-list .media {
+  border: 1px solid #ededed;
+  padding: 1em 1em 0;
+}
+
 /** HIGHLIGHT REGISTRATION **/
 #register {
   background-color: #f4f3f1;
