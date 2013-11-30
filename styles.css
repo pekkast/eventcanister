@@ -1,0 +1,184 @@
+/**** SETTING FONTS ******/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #0c304a;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+    font-family: 'Quattrocento', serif;
+}
+
+a {
+  color: #85a71e;
+}
+
+a:hover {
+  color: #bfb841;
+}
+
+.style-event {
+  color: #2b79a1;
+}
+
+.style-canister {
+  color: #85a71e;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #2b79a1;
+  color: #f4f3f1;
+}
+
+/**** COMPANY LOGO BG ****/
+#organizer {
+  display: block;
+  padding: .5em;
+  width: 200px;
+  border-radius: 0 0 .3em .3em;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+     -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+/**** ADJUST HEADER SLOGAN *****/
+.header .slogan {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding: .8em;
+  font-size: 1.8em;
+}
+
+.header .fa-twitter:before {
+  padding-right: .5em;
+  font-size: 1.5em;
+}
+
+.header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header a {
+  color: #f4f3f1;
+}
+
+/** Push sidebar to right **/
+#sidebar {
+  left: 75%;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #f3f4f1;
+  margin-top: 1em;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.jumbotron h1 {
+  font-size: 2em;
+}
+
+/** HIGHLIGHT REGISTRATION **/
+#register {
+  background-color: #f4f3f1;
+  padding: .6em 2em 1em;
+  margin: 1em 0;
+}
+
+/*** BADGE CUSTOMIZATIONS **/
+
+.badge {
+    background-color: #2b79a1;
+}
+
+/*** Schedule times */
+#schedule .list-group-item > .badge {
+    float: none !important;
+    padding: .5em .8em;
+    width: 100%;
+    border-radius: .2em;
+    margin-bottom: 1em;
+}
+
+/** Pricing **/
+#register .badge {
+  border-radius: .2em;
+  padding: .5em 1em;
+}
+
+/** Schedule **/
+#schedule .list-group-item h4 {
+    padding: 0;
+    margin: 0;
+}
+
+#schedule .media {
+    margin-top: 0;
+}
+
+/** FOOTER DEFS **/
+
+#toggle-footer {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  cursor: pointer;
+  border-bottom: 8px solid #85a71e;
+}
+
+#toggle-footer i {
+  border: 1px solid #85a71e;
+  border-bottom-style: none;
+  border-radius: .2em .2em 0 0;
+  background-color: #fff;
+  padding: .4em .5em .3em;
+  position: relative;
+  top: 7px;
+}
+
+#toggle-footer i.fa-angle-double-down {
+  border-bottom-style: solid;
+  border-top-style: none;
+  padding: .3em .5em .1em;
+  border-radius: 0 0 .2em .2em;
+  top: 1.4em;
+}
+
+#page-footer .container {
+  padding: 2.5em 1em 1.5em;
+}
+
+/** RESP **/
+/** Increase Font size to larger views **/
+@media all and (min-width: 600px) {
+  .jumbotron h1 {
+    font-size: 2.5em;
+  }
+}
+
+hr.decoration {
+  border-color: #2b79a1;
+  border-width: 1em;
+  margin: 0;
+  padding: 0;
+}
