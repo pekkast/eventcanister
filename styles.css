@@ -122,7 +122,16 @@ a:hover {
 /** Pricing **/
 #register .badge {
   border-radius: .2em;
-  padding: .5em 1em;
+  padding: .6em 1em;
+  position: absolute;
+  display: block;
+  right: 1em;
+  top: .6em;
+}
+
+#register .list-group-item {
+  position: relative;
+  padding-right: 4em;
 }
 
 /** Schedule **/
